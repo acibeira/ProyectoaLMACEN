@@ -28,7 +28,7 @@ class Almacen {
 
     /**
      * 
-     * @param {string} objeto objeto que introducimos en el almacén 
+     * @param {object} objeto objeto que introducimos en el almacén 
      * @returns {numbre} Valor devuelto: 0 almacen lleno; sino número de unidades introducidas
      */ 
     introducir(objeto) {
