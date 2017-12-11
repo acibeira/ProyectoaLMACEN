@@ -28,7 +28,7 @@ class Almacen {
 
     /**
      * 
-     * @param {*} objeto objeto que introducimos en el almacén 
+     * @param {string} objeto objeto que introducimos en el almacén 
      * @returns {numbre} Valor devuelto: 0 almacen lleno; sino número de unidades introducidas
      */ 
     introducir(objeto) {
@@ -97,8 +97,8 @@ class Almacen {
     //El método comprar, recibe una cadena de texto con un título y la cantidad de dinero. Devuelve -1 si no puede comprarlo y la cantidad de dinero que le sobra si lo puede comprar.
     /**
      * 
-     * @param {*} titulo objeto que buscamos
-     * @param {*} dinero cantidad que disponemos
+     * @param {string} titulo objeto que buscamos
+     * @param {number} dinero cantidad que disponemos
      * @returns {number} devuelve -1 si no se puede comprar  o la cantidad de dinero que sobra si se puede
      */
     comprar(titulo, dinero) {
